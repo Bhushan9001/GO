@@ -7,6 +7,9 @@ func Routes() *mux.Router {
 	router := mux.NewRouter();
 
     authRoutes(router);
+	bookRoutes(router);
 
 	return router;
 }
+
+   
